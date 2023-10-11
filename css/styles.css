@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-size: cover;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    font-family: 'Nunito', sans-serif;
+    padding-top: 20px;
+    padding-left: 9%;
+    padding-right: 8%;
+    transition: all 0.5s;
+}
+
+.nav-img {
+    width: 8%;
+}
+
+.navbar-brand {
+    color: #012970;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.navbar-item {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0px 5px;
+}
+
+.nav
+
+.login {
+    border-radius: 3px;
+    box-shadow: 0 0 30px rgba(1, 41, 112, 8%);
+    font-weight: bold;
+    padding: 0.4rem 1.2rem;
+}
+
+/* HOME & PROMO */
+
+.home-promo{
+    /* background-image: url(../images/blue-bg1.jpg);
+    background-size: cover;
+    background-position: bottom; */
+    display: flex;
+    height: 75vh;
+    margin-top: 80px;
+}
+
+.home-intro{
+    margin-left: 120px;
+    text-align: left;
+}
+
+.intro-heading{
+    color: #012970;
+    font-size: 50px;
+    font-weight: 900;
+    padding-right: 100px;
+}
+
+.intro-description{
+    font-size: 20px;
+    padding: 0 200px 0 0;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.get-started{
+    background-color: #0d6efd;
+    border: 1px transparent;
+    border-radius: 10px;
+    box-shadow: 0 5px 30px rgba(65, 84, 241, 40%);
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.custom-video{
+    margin-right: 120px;
+}
+
+.back-video{
+    border-radius: 50px;
+    width: 400px;
+    position: relative;
+    right: 100px;
+}
+
+.intro-image{
+    border-radius: 50px;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+}
+
+/* ABOUT */
+
+.about-heading{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.about-company{
+    display: flex;
+}
+
+.company-desc{
+    margin: 15px 0 0 150px;
+    text-align: justify;
+}
+
+.company-desc-head{
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.comp-desc{
+    width: 70%;
+    justify-content: left;
+}
+
+.read-more-btn{
+    background-color: #0d6efd;
+    border: 1px solid;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.company-video{
+    margin-right: 150px;
+    width: 500px;
+}
+
+/* PROPERTIES */
+
+#properties{
+    margin-top: 50px;
+}
+
+.prop-head1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.prop-head2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.prop-boxes{
+    display: flex;
+    margin: 120px 100px;
+}
+
+.prop-card{
+    background: #f6f9ff;
+    border: 1px transparent;
+    box-shadow: 0 5px 30px rgba(62, 67, 116, 0.15);
+    border-radius: 20px;
+    margin: 0 15px;
+    height: 250px;
+    width: 30%;
+}
+
+.prop-icon{
+    background: #fff;
+    border: 1px transparent;
+    border-radius: 60%;
+    box-shadow: 0 5px 30px rgba(62, 67, 116, 0.2);
+    color: #0d6efd;
+    font-size: 30px;
+    padding: 15px 22px;
+    position: relative;
+    bottom: 30px;
+}
+
+.prop-card-head{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card-heading{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.prop-card-body{
+    text-align: left;
+    margin-left: 30px;
+}
+
+
+/* SERVICES */
+
+#services{
+    background: #F6F9FF;
+    background: linear-gradient(to top, #F6F9FF 48%, #FFFFFF 100%);
+    margin: 100px 0;
+}
+
+.service-card{
+    background: #4318FF;
+    background: linear-gradient(to right, #4318FF 40%, #868CFF 45%, #FFFFFF 60%);
+    border: 1px transperent;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px rgba(65, 84, 241, 40%);
+    display: flex;
+    margin: 15px auto;
+    width: 90%;
+    height: 380px;
+}
+
+.service-card1{
+    background: #4318FF;
+    background: linear-gradient(to left, #4318FF 40%, #868CFF 45%, #FFFFFF 60%);
+    border: 1px transperent;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px rgba(65, 84, 241, 40%);
+    display: flex;
+    margin: 50px auto;
+    width: 90%;
+    height: 380px;
+}
+
+.service-card-description{
+    height: 300px;
+    padding-top: 70px;
+    padding-left: 70px;
+    text-align: justify;
+}
+
+.desc-right{
+    padding-left: 250px;
+}
+
+.serv-head{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.serv-desc{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+.serv-image{
+    width: 500px;
+    margin-left: 150px;
+}
+
+.learn-more{
+    background-color: #fff;
+    border: 1px transperent;
+    border-radius: 10px;
+    color: #012970;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.serv-image1{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.machine{
+    margin-top: 0;
+}
+
+.serv-image-remote{
+    width: 350px;
+    margin-left: 150px;
+}
+
+/* CONTACT */
+
+#contact{
+    background: #4318FF;
+    background: linear-gradient(to right, #4318FF 0%, #868CFF 98%);
+    padding: 25px 0;
+
+}
+
+.contact-us{
+    display: flex;
+    margin: 20px 100px;
+}
+
+.contact-head{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 120px;
+    width: 70%;
+}
+
+.contact-form{
+    background: #fff;
+    border: 1px transparent;
+    border-radius: 10px;
+    box-shadow: 0 5px 30px rgba(62, 67, 116, 0.3);
+    padding: 15px 35px;
+    position: relative;
+    height: 620px;
+    width: 50%;
+}
+
+.contact-form-head{
+    color: #012970;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.contact-field{
+    border: 1px transparent;
+    border-radius: 5px;
+    box-shadow: 0 5px 30px rgba(62, 67, 116, 0.25);
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.msg{
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.msg-btn{
+    text-align: left;
+}
+
+.submit{
+    background-color: #0d6efd;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 0 5px 30px rgba(65, 84, 241, 20%);
+    color: #fff;
+    font-size: 19px;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.contact-page-btns{
+    margin-top: 90px;
+    margin-right: 170px;
+}
+
+.get-started-contact{
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 10px;
+    color: #012970;
+    font-weight: bold;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.demo-btn{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.demo-btn:hover{
+    background-color: #fff;
+    border: 1px transparent;
+    border-radius: 10px;
+    color: #012970;
+    transition: .4s ease;
+}
+
+/* FOOTER */
+
+#footer{
+    background: #fff;
+}
+
+#footer ul{
+    padding: 0;
+}
+
+#footer ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+#footer ul a{
+    color: #000;
+    text-decoration: none;
+}
+
+.foot-grid{
+    display: flex;
+    margin: 70px 0; 
+}
+
+.footer-brand{
+    width: 35%;
+}
+
+.socials{
+    margin-top: 10px;
+}
+
+.social-links{
+    font-size: 25px;
+    margin: 0 10px; 
+}
+
+.footer-link{
+    width: 20%;
+}
+
+.footer-link-head{
+    color: #012970;
+    font-weight: bold;
+}
+
+.foot-cont2 {
+    background-color: #f6f9ff;
+    padding: 2% 0;
+}
