@@ -4,6 +4,10 @@
 }
 
 body{
+    background-image: url(../images/hero-bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left 1px;
     background-size: cover;
     font-family: 'Nunito', sans-serif;
     text-align: center;
@@ -156,10 +160,15 @@ body{
 
 /* ABOUT */
 
+#about{
+    background: #fff;
+    padding: 120px 0;
+}
+
 .about-heading{
-    font-size: 24px;
+    color: #0d6efd;
+    font-size: 15px;
     font-weight: bold;
-    margin-bottom: 25px;
 }
 
 .about-company{
@@ -167,19 +176,23 @@ body{
 }
 
 .company-desc{
-    margin: 15px 0 0 150px;
+    background: #f6f9ff;
+    margin: 0 0 0 100px;
+    padding: 50px 40px;
     text-align: justify;
 }
 
 .company-desc-head{
+    color: #012970;
     font-size: 25px;
+    font-weight: bold;
     margin-bottom: 15px;
     text-align: left;
 }
 
 .comp-desc{
-    width: 70%;
     justify-content: left;
+    margin-bottom: 30px;
 }
 
 .read-more-btn{
@@ -192,8 +205,13 @@ body{
     text-decoration: none;
 }
 
+.read-more-btn:hover{
+    background-color: #0d55fd;
+}
+
 .company-video{
-    margin-right: 150px;
+    margin-top: 35px;
+    margin-right: 120px;
     width: 500px;
 }
 
