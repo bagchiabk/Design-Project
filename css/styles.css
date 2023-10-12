@@ -55,6 +55,10 @@ body{
 
 /* HOME & PROMO */
 
+#home{
+    height: 100vh;
+}
+
 .home-promo{
     /* background-image: url(../images/blue-bg1.jpg);
     background-size: cover;
@@ -65,7 +69,7 @@ body{
 }
 
 .home-intro{
-    margin-left: 120px;
+    margin-left: 50px;
     text-align: left;
 }
 
@@ -73,7 +77,9 @@ body{
     color: #012970;
     font-size: 3rem;
     font-weight: bold;
+    margin-top: 25px;
     padding-right: 100px;
+    width: 80%;
 }
 
 .intro-description{
@@ -98,21 +104,32 @@ body{
     margin-right: 120px;
 }
 
-.back-video{
-    border-radius: 50px;
-    width: 400px;
+.intro-video1{
+    border-radius: 20px;
     position: relative;
-    right: 100px;
+    right: 170px;
+    bottom: 50px;
+}
+
+.intro-video2{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    bottom: 120px;
+    left: 80px;
+    width: 400px;
 }
 
 .intro-image{
-    border-radius: 50px;
+    border-radius: 20px;
     width: 300px;
     height: 200px;
     position: relative;
-    bottom: 30px;
+    bottom: 620px;
     left: 50px;
 }
+
 
 /* ABOUT */
 
