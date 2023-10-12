@@ -276,7 +276,7 @@ body{
 
 /* SERVICES */
 
-#services{
+/* #services{
     background: #F6F9FF;
     background: linear-gradient(to top, #F6F9FF 48%, #FFFFFF 100%);
     margin: 100px 0;
@@ -361,7 +361,7 @@ body{
 .serv-image-remote{
     width: 350px;
     margin-left: 150px;
-}
+} */
 
 /* RANDOM */
 
