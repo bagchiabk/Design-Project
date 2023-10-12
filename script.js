@@ -14,3 +14,20 @@ function myFunction() {
         navbar.classList.remove("sticky")
     }
 }
+
+// IMAGE CHANGE ON CLICK
+
+function watchImage(){
+    let watchImage = document.getElementById("image");
+    watchImage.src = "images/watch.jpg";
+}
+
+function factoryImage(){
+    let factoryImage = document.getElementById("image");
+    factoryImage.src = "images/factory.jpg"
+}
+
+function birdImage(){
+    let birdImage = document.getElementById("image");
+    birdImage.src = "images/bird.jpg";
+}

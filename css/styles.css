@@ -363,6 +363,70 @@ body{
     margin-left: 150px;
 }
 
+/* RANDOM */
+
+#services{
+    background-color: #fff;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.service-head{
+    color: #0d6efd;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.service{
+    display: flex;
+    padding: 0 40px;
+}
+
+.service-description{
+    text-align: left;
+}
+
+.service-description-head{
+    color: #012970;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.service-desc{
+    font-size: 20px;
+    font-weight: 600;
+    width: 90%;
+}
+
+.service-image{
+    background-color: #fff;
+    border: 1px transparent;
+    border-radius: 10px;
+    height: 480px;
+    margin-top: 150px;
+}
+
+.watch{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 650px;
+    height: 400px;
+}
+
+.serv-btn{
+    background-color: #fff;
+    border: 1px transparent;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 25px 78px;
+}
+
+.sensor{
+    background-color: #F6F9FF;
+}
+
 /* CONTACT */
 
 #contact{
