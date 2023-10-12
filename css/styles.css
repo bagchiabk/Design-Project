@@ -5,7 +5,7 @@
 
 body{
     background-size: cover;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
 }
 
@@ -36,8 +36,6 @@ body{
     font-weight: bold;
     padding: 0px 5px;
 }
-
-.nav
 
 .login {
     border-radius: 3px;
@@ -73,14 +71,14 @@ body{
 
 .intro-heading{
     color: #012970;
-    font-size: 50px;
-    font-weight: 900;
+    font-size: 3rem;
+    font-weight: bold;
     padding-right: 100px;
 }
 
 .intro-description{
-    font-size: 20px;
-    padding: 0 200px 0 0;
+    font-size: 23px;
+    padding: 0 100px 0 0;
     margin-top: 30px;
     margin-bottom: 50px;
 }
