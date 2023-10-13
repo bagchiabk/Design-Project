@@ -526,7 +526,6 @@ body{
 
 #footer{
     background-color: #fff;
-    padding: 10px 0;
 }
 
 #footer ul{
@@ -543,13 +542,22 @@ body{
     text-decoration: none;
 }
 
-.foot-grid{
+.foot-cont1{
+    background-color: #fff;
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: 700px;
+    background-size: 700px 350px;
     display: flex;
-    margin: 70px 0; 
+    padding: 50px 0;
 }
 
 .footer-brand{
     width: 35%;
+}
+
+.footer-logo{
+    width: 8%;
 }
 
 .socials{
@@ -562,6 +570,7 @@ body{
 }
 
 .footer-link{
+    text-align: left;
     width: 20%;
 }
 
