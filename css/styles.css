@@ -18,31 +18,31 @@ body{
 
 .navbar {
     font-family: 'Nunito', sans-serif;
-    padding-top: 20px;
-    padding-left: 3%;
-    padding-right: 2%;
+    padding: 10px 100px 10px 100px;
     transition: all 0.5s;
 }
 
 .nav-img {
-    width: 8%;
+    width: 5%;
 }
 
 .navbar-brand {
     color: #012970;
-    font-size: 2rem;
+    font-size: 30px;
     font-weight: bold;
     text-align: left;
 }
 
 .navbar-item {
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: bold;
+    margin-right: 30px;
     padding: 0px 5px;
 }
 
 .login {
-    border-radius: 3px;
+    background-color: #4154f1;
+    border-radius: 5px;
     box-shadow: 0 0 30px rgba(1, 41, 112, 8%);
     font-weight: bold;
     padding: 8px 18px;
@@ -53,7 +53,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    /* transition: 0.2s; */
+    transition: 0.2s ease;
     z-index: 2;
 }
 
