@@ -167,9 +167,10 @@ body{
 }
 
 .about-heading{
-    color: #0d6efd;
+    color: #4154f1;
     font-size: 15px;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 .about-company{
@@ -179,7 +180,7 @@ body{
 .company-desc{
     background: #f6f9ff;
     margin: 0 0 0 100px;
-    padding: 50px 40px;
+    padding: 30px 40px;
     text-align: justify;
 }
 
@@ -192,17 +193,20 @@ body{
 }
 
 .comp-desc{
+    font-size: 17px;
     justify-content: left;
     margin-bottom: 30px;
 }
 
 .read-more-btn{
-    background-color: #0d6efd;
+    background-color: #4154f1;
     border: 1px solid;
     border-radius: 10px;
     color: #fff;
+    font-size: 18px;
+    font-weight: bold;
     margin-top: 15px;
-    padding: 10px 20px;
+    padding: 15px 25px;
     text-decoration: none;
 }
 
@@ -211,9 +215,9 @@ body{
 }
 
 .company-video{
-    margin-top: 35px;
     margin-right: 120px;
-    width: 500px;
+    padding-left: 0;
+    width: 650px;
 }
 
 /* PROPERTIES */
