@@ -448,6 +448,42 @@ body{
     background-color: #F6F9FF;
 }
 
+/* WORKFLOW */
+
+#workflow{
+    padding: 120px 0;
+}
+
+.workflow-heading{
+    color: #012970;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 45%;
+}
+
+.workflow-description{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px auto 100px;
+    width: 55%;
+}
+
+.work-image{
+    background-color: #fff;
+    border: 1px transparent;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px rgba(62, 67, 116, 0.5);
+    height: 850px;
+    width: 85%;
+    margin: 50px auto;
+}
+
+.flowchart{
+    margin-top: 120px;
+    width: 80%;
+}
+
 /* CONTACT */
 
 #contact{
