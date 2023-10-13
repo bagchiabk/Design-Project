@@ -72,21 +72,22 @@ body{
     margin-top: 80px;
 }
 
-.home-intro{margin-top: 50px;
-    margin-left: 100px;
+.home-intro{
+    margin-top: 70px;
+    margin-left: 110px;
     text-align: left;
 }
 
 .intro-heading{
     color: #012970;
-    font-size: 48px;
+    font-size: 45px;
     font-weight: bold;
     margin-top: 25px;
     padding-right: 100px;
 }
 
 .intro-description{
-    font-size: 28px;
+    font-size: 25px;
     line-height: 1.2;
     padding: 0 100px 0 0;
     margin-top: 30px;
