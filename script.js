@@ -31,3 +31,15 @@ function birdImage(){
     let birdImage = document.getElementById("image");
     birdImage.src = "images/bird.jpg";
 }
+
+// SCHEDULE A DEMO PAGE
+
+let popup = document.getElementById("popup");
+
+function openPopup() {
+    popup.classList.add("show-popup");
+}
+
+function closePopup() {
+    popup.classList.remove("show-popup");
+}

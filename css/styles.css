@@ -112,16 +112,17 @@ body{
 }
 
 .demo{
+    background-color: transparent;
+    border: 1px transparent;
     color: #012970;
     font-size: 18px;
     font-weight: bold;
     margin: 0 25px;
     padding: 15px 25px;
-    text-decoration: none;
 }
 
 .demo:hover{
-    background-color: #0d6efd;
+    background-color: #4154f1;
     border: 1px transparent;
     border-radius: 10px;
     color: #fff;
@@ -551,7 +552,7 @@ body{
 }
 
 .submit{
-    background-color: #0d6efd;
+    background-color: #4154f1;
     border: 1px solid;
     border-radius: 10px;
     box-shadow: 0 5px 30px rgba(65, 84, 241, 20%);
@@ -564,6 +565,39 @@ body{
 .contact-page-btns{
     margin-top: 90px;
     margin-right: 170px;
+}
+
+/* POPUP PAGE */
+
+.popup-page{
+    position: fixed;
+    top: 30px;
+    left: 400px;
+    height: 690px;
+    transform: translate(0%, 0%) scale(0.1);
+    transition: transform 0.4s, center 0.4s;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+.show-popup {
+    visibility: visible;
+    transform: translate(0%, 0%) scale(1);
+}
+
+.popup-heading{
+    color: #012970;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close-icon{
+    text-align: right;
+}
+
+.close{
+    cursor: pointer;
+    font-size: 35px;
 }
 
 /* FOOTER */
