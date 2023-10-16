@@ -180,7 +180,7 @@ body{
 
 .company-desc{
     background: #f6f9ff;
-    margin: 0 0 0 100px;
+    margin-left: 100px;
     padding: 30px 40px;
     text-align: justify;
 }
@@ -664,6 +664,180 @@ body{
 
 /* RESPONSIVE STYES*/
 
+@media (min-width: 1920px) {
+
+    /* NAVBAR */
+
+    .navbar{
+        padding: 10px 200px;
+    }
+
+    /* HOME & PROMO */
+
+    .home-promo{
+        margin-top: 150px;
+    }
+
+    .home-intro{
+        margin-left: 210px;
+    }
+
+    .intro-heading{
+        font-size: 55px;
+    }
+
+    .intro-description{
+        font-size: 30px;
+    }
+
+    .image-video{
+        margin-right: 120px;
+    }
+
+    .intro-video1{
+        height: 500px;
+        right: 210px;
+    }
+
+    .intro-video2{
+        width: 450px;
+    }
+
+    .intro-image{
+        bottom: 720px;
+        left: 40px;
+        width: 380px;
+    }
+
+    /* ABOUT */
+
+    .company-desc{
+        margin-left: 200px;
+    }
+
+    .about-heading{
+        font-size: 18px;
+    }
+
+    .company-desc-head{
+        font-size: 28px;
+    }
+
+    .comp-desc{
+        font-size: 20px;
+    }
+
+    .company-video{
+        margin-right: 200px;
+        width: 700px;
+    }
+
+    /* PROPERTIES */
+
+    .prop-head1{
+        font-size: 28px;
+    }
+
+    .prop-head2{
+        font-size: 38px;
+    }
+
+    .prop-boxes{
+        margin: 120px 200px;
+    }
+
+    .prop-card{
+        height: 300px;
+    }
+
+    .card-heading{
+        font-size: 24px;
+    }
+
+    .card-description{
+        font-size: 20px;
+    }
+
+
+
+    /* SERVICES */
+
+    #services{
+        padding: 30px 210px;
+    }
+
+    .service-description-head{
+        font-size: 30px;
+    }
+
+    .top-head{
+        font-size: 42px;
+    }
+
+    .service-desc{
+        font-size: 20px;
+    }
+
+    .top-desc{
+        font-size: 22px
+    }
+
+    .service-image{
+        width: 100%;
+    }
+
+    /* WORKFLOW */
+
+    #workflow{
+        padding: 120px 100px;
+    }
+
+    .flowchart{
+        margin-top: 80px;
+    }
+
+    /* CONTACT */
+
+    .contact-heading{
+        width: 55%;
+    }
+
+    .contact-head{
+        font-size: 60px;
+        margin: 120px auto 0 auto;
+    }
+
+    .contact-form{
+        margin-right: 120px;
+        width: 40%;
+    }
+
+    .contact-page-btns{
+        margin-right: 0;
+    }
+
+    /* POPUP PAGE */
+
+    .popup-page{
+        top: 50px;
+        left: 600px;
+        height: 720px;
+    }
+
+
+    /* FOOTER */
+
+    .foot-cont1{
+        background-size: 900px 350px;
+        background-position: 980px;
+    }
+
+    .footer-logo{
+        width: 7%;
+    }
+
+}
+
 @media (max-width: 991px){
 
 /* HOME & PROMO */
@@ -712,6 +886,21 @@ body{
     width: 250px;
     left: 220px;
     bottom: 320px;
+}
+
+/* ABOUT */
+
+.about-company{
+    display: block;
+}
+
+.company-desc{
+    margin: 0;
+}
+
+.company-video{
+    margin: 0 auto;
+    width: 350px;
 }
 
 }
