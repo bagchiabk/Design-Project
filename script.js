@@ -24,7 +24,7 @@ function watchImage(){
 
 function factoryImage(){
     let factoryImage = document.getElementById("image");
-    factoryImage.src = "images/factory.jpg"
+    factoryImage.src = "images/factory1.jpg"
 }
 
 function birdImage(){

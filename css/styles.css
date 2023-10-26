@@ -257,7 +257,7 @@ p {
     box-shadow: 0 5px 30px rgba(62, 67, 116, 0.25);
     border-radius: 20px;
     margin: 0 15px;
-    height: 250px;
+    height: 290px;
     width: 30%;
 }
 
@@ -287,6 +287,11 @@ p {
     margin-left: 30px;
 }
 
+.card-description {
+    text-align: justify;
+    width: 90%;
+}
+
 /*=======================*/
 /*       SERVICES        */
 /*=======================*/
@@ -294,13 +299,11 @@ p {
 #services {
     background-color: #fff;
     margin: 0;
-    padding: 30px 120px;
+    padding: 60px 120px;
 }
 
-.service-head {
-    color: #0d6efd;
-    font-size: 35px;
-    margin-bottom: 40px;
+.service-head2 {
+    margin-bottom: 80px;
 }
 
 .service-elaborate {
@@ -313,6 +316,7 @@ p {
 
 .service-description {
     text-align: left;
+    width: 120%;
 }
 
 .service-description-head {
@@ -320,18 +324,18 @@ p {
 }
 
 .top-head {
-    font-size: 48px;
+    font-size: 40px;
 }
 
 .service-desc {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 20px;
-    width: 80%;
+    width: 90%;
 }
 
 .top-desc {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 50px;
     width: 70%;
 }
