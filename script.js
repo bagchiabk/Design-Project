@@ -19,7 +19,7 @@ function myFunction() {
 
 function watchImage(){
     let watchImage = document.getElementById("image");
-    watchImage.src = "images/watch.jpg";
+    watchImage.src = "images/watch1.jpg";
 }
 
 function factoryImage(){
