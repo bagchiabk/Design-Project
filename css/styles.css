@@ -848,11 +848,24 @@ p {
 
     .company-desc {
         margin: 0;
+        padding-bottom: 50px;
     }
 
     .company-video {
         margin: 0 auto;
-        width: 350px;
+        width: 100%;
+    }
+
+    /* PROPERTIES */
+
+    .prop-boxes {
+        flex-wrap: wrap;
+        margin: 70px 50px;
+    }
+
+    .prop-card {
+        margin: 40px 15px;
+        width: 46%;
     }
 
 }
