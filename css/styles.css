@@ -929,4 +929,41 @@ p {
         width: 80%;
     }
 
+    /* CONTACT */
+
+    #contact {
+        padding: 50px;
+    }
+
+    .contact-us {
+        flex-wrap: wrap;
+        margin: 20px auto;
+    }
+
+    .contact-heading {
+        width: 100%;
+    }
+
+    .contact-head {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .contact-form {
+        margin: 30px auto;
+        width: 80%;
+    }
+
+    .contact-page-btns {
+        margin: 50px auto;
+    }
+
+    /* POP-UP PAGE */
+
+    .popup-page{
+        top: -5px;
+        left: 90px;
+        height: 680px;
+    }
+
 }
