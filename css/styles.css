@@ -918,7 +918,7 @@ p {
     /* HOME & PROMO */
 
     #home {
-        height: 155vh;
+        height: 120vh;
     }
 
     .home-promo {
@@ -1021,7 +1021,7 @@ p {
     /* WORKFLOW */
 
     #workflow {
-        height: 300vh;
+        height: 250vh;
         padding: 80px 0;
     }
 
@@ -1117,7 +1117,7 @@ p {
     /* HOME & PROMO */
 
     #home {
-        height: 150vh;
+        height: 120vh;
     }
 
     .intro-heading {
@@ -1148,7 +1148,7 @@ p {
     /* WORKFLOW */
 
     #workflow {
-        height: 260vh;
+        height: 220vh;
     }
 
     .conatct-head {
@@ -1167,7 +1167,7 @@ p {
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 673px) and (max-width: 768px) {
 
     /* HOME & PROMO */
 
@@ -1187,6 +1187,10 @@ p {
     }
 
     /* WORKFLOW */
+
+    #workflow {
+        height: 200vh;
+    }
 
     .flowchart1 {
         margin-top: 50px;
@@ -1242,6 +1246,209 @@ p {
     /* WORKFLOW */
 
     #workflow {
-        height: 210vh;
+        height: 170vh;
+    }
+
+    .flowchart1 {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 542px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .nav-img {
+        width: 20%;
+    }
+
+    /* HOME & PROMO */
+
+    #home {
+        height: 90vh;
+    }
+
+    .intro-video1 {
+        height: 320px;
+    }
+
+    .intro-video2 {
+        height: auto;
+        width: 280px;
+    }
+
+    .intro-image {
+        left: 90px;
+        bottom: 500px;
+        height: auto;
+        width: 220px;
+    }
+
+    /* PROPERTIES */
+
+    .prop-head2 {
+        font-size: 25px;
+    }
+
+    .prop-card {
+        margin: 50px;
+        width: 80%;
+    }
+
+    /* WORKFLOW */
+
+    #workflow {
+        height: 140vh;
+    }
+
+    .workflow-heading {
+        font-size: 35px;
+    }
+
+    .flowchart1 {
+        margin-top: 150px;
+    }
+
+    /* CONTACT */
+
+    .contact-head {
+        font-size: 40px;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    /* FOOTER */
+
+    .footer-logo {
+        width: 7%;
+    }
+}
+
+@media (max-width: 452px) {
+
+    /* HOME & PROMO */
+    
+    #home {
+        height: 80vh;
+    }
+
+    .intro-heading {
+        font-size: 30px;
+    }
+
+    .intro-video1 {
+        height: 290px;
+        left: 2px;
+    }
+
+    .intro-video2 {
+        height: auto;
+        width: 220px;
+    }
+
+    .intro-image {
+        bottom: 450px;
+        left: 95px;
+        height: auto;
+        width: 200px;
+    }
+
+    /* PROPERTIES */
+
+    .prop-card {
+        margin: 50px auto;
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 398px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    /* HOME & PROMO */
+
+    .intro-heading {
+        font-size: 25px;
+    }
+
+    .intro-description {
+        font-size: 20px;
+    }
+
+    .demo {
+        margin-top: 40px;
+    }
+
+    .intro-video1 {
+        height: 250px;
+        left: -5px;
+    }
+
+    .intro-video2 {
+        height: auto;
+        width: 200px;
+        left: 120px;
+    }
+
+    .intro-image {
+        bottom: 450px;
+        left: 60px;
+        height: auto;
+        width: 180px;
+    }
+
+    /* PROPERTIES */
+
+    .prop-card {
+        height: 320px;
+    }
+
+    /* WORKFLOW */
+
+    #workflow {
+        height: 120vh;
+    }
+
+    .flowchart1 {
+        margin-top: 190px;
+    }
+
+    /* CONTACT */
+
+    .contact-head {
+        font-size: 20px;
+    }
+
+    /* FOOTER */
+
+    .footer-brand {
+        margin-left: 20px;
+    }
+
+    .footer-links {
+        margin-left: 20px;
+    }
+
+    .footer-link-details {
+        width: 70%;
+    }
+
+    .foot-cont2 {
+        font-size: 12px;
     }
 }
