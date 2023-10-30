@@ -779,6 +779,114 @@ p {
     }
 }
 
+@media (max-width: 1280px) {
+
+    /* NAVBAR */
+
+    .nav-img {
+        width: 10%;
+    }
+
+    .navbar-nav {
+        margin-right: 50px;
+    }
+
+    /* HOME & PROMO */
+
+    #home {
+        height: 150vh;
+    }
+
+    .home-promo {
+        flex-wrap: wrap;
+    }
+
+    .home-intro {
+        margin: 40px auto;
+        text-align: center;
+    }
+
+    .image-video {
+        margin-top: 200px;
+    }
+
+    .intro-heading {
+        font-size: 60px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .intro-description {
+        margin: 40px auto;
+        padding: 0;
+        width: 80%;
+    }
+
+    .intro-video1 {
+        height: 550px;
+        left: 250px;
+        bottom: 150px;
+    }
+
+    .intro-video2 {
+        left: 220px;
+        bottom: 50px;
+        width: 480px;
+    }
+
+    .intro-image {
+        left: 350px;
+        bottom: 660px;
+        height: 280px;
+        width: 420px;
+    }
+
+    /* ABOUT */
+
+    .about-company {
+        flex-wrap: wrap;
+    }
+
+    .company-desc {
+        margin: 0;
+    }
+
+    .company-video {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    /* PROPERTIES */
+
+    .prop-boxes {
+        flex-wrap: wrap;
+    }
+
+    .prop-card {
+        margin: 35px 15px;
+    }
+
+    /* WORKFLOW */
+
+    #workflow {
+        padding: 60px 0;
+    }
+
+    .workflow-heading {
+        width: 80%;
+    }
+
+    .work-image {
+        height: 650px;
+    }
+
+    .flowchart {
+        margin-top: 60px;
+        width: 85%;
+    }
+
+}
+
 @media (max-width: 991px) {
 
     /* NAVBAR */
@@ -810,11 +918,10 @@ p {
     /* HOME & PROMO */
 
     #home {
-        height: 150vh;
+        height: 155vh;
     }
 
     .home-promo {
-        flex-wrap: wrap;
         margin: 0;
     }
 
@@ -859,6 +966,10 @@ p {
 
     /* ABOUT */
 
+    #about {
+        padding: 60px 0;
+    }
+
     .about-company {
         display: block;
     }
@@ -876,7 +987,6 @@ p {
     /* PROPERTIES */
 
     .prop-boxes {
-        flex-wrap: wrap;
         margin: 70px 50px;
     }
 
@@ -911,7 +1021,7 @@ p {
     /* WORKFLOW */
 
     #workflow {
-        height: 330vh;
+        height: 300vh;
         padding: 80px 0;
     }
 
@@ -1000,4 +1110,138 @@ p {
         margin: 30px 0 0 70px;
     }
 
+}
+
+@media (max-width: 849px) {
+
+    /* HOME & PROMO */
+
+    #home {
+        height: 150vh;
+    }
+
+    .intro-heading {
+        font-size: 55px;
+    }
+
+    .intro-video1 {
+        left: -80px;
+        bottom: 40px;
+    }
+
+    .intro-video2 {
+        left: 210px;
+        top: -130px;
+    }
+
+    .intro-image {
+        left: 180px;
+        bottom: 720px;
+    }
+
+    /* PROPERTIES */
+
+    .prop-card {
+        width: 45%;
+    }
+
+    /* WORKFLOW */
+
+    #workflow {
+        height: 260vh;
+    }
+
+    .conatct-head {
+        font-size: 45px;
+        width: 100%;
+    }
+
+    /* FOOTER */
+
+    .footer-links {
+        flex-wrap: wrap;
+    }
+
+    .footer-link-details {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* HOME & PROMO */
+
+    .intro-heading {
+        font-size: 48px;
+    }
+
+    .intro-descripton {
+        font-size: 28px;
+    }
+
+    /* PROPERTIES */
+
+    .prop-card {
+        margin: 50px 130px;
+        width: 70%;
+    }
+
+    /* WORKFLOW */
+
+    .flowchart1 {
+        margin-top: 50px;
+    }
+
+    /* CONTACT */
+
+    .contact-form {
+        width: 90%;
+    }
+}
+
+@media (max-width: 672px) {
+
+    /* HOME & PROMO */
+
+    .intro-heading {
+        font-size: 35px;
+    }
+
+    .intro-description {
+        font-size: 20px;
+    }
+
+    .intro-video1 {
+        height: 400px;
+        left: -30px;
+    }
+
+    .intro-video2 {
+        left: 170px;
+        width: 300px;
+    }
+
+    .intro-image {
+        height: auto;
+        width: 260px;
+        left: 140px;
+        bottom: 580px;
+    }
+
+    /* PROPERTIES */
+
+    .prop-head2 {
+        font-size: 30px;
+    }
+
+    .prop-card {
+        margin: 50px 80px;
+        width: 80%;
+    }
+
+    /* WORKFLOW */
+
+    #workflow {
+        height: 210vh;
+    }
 }
