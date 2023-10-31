@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
     background-size: cover;
     font-family: 'Nunito', sans-serif;
     text-align: center;
+    width: 100%;
 }
 
 h1,
@@ -1332,43 +1334,136 @@ p {
 
 @media (max-width: 452px) {
 
+    /* NAVBAR */
+
+    .navbar {
+        padding: 10px 5px;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+
     /* HOME & PROMO */
     
     #home {
-        height: 80vh;
+        height: 120vh;
     }
 
     .intro-heading {
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    .intro-description {
+        font-size: 18px;
     }
 
     .intro-video1 {
-        height: 290px;
-        left: 2px;
+        height: 260px;
+        left: 0;
     }
 
     .intro-video2 {
+        left: 150px;
         height: auto;
-        width: 220px;
+        width: 200px;
     }
 
     .intro-image {
         bottom: 450px;
-        left: 95px;
+        left: 75px;
         height: auto;
-        width: 200px;
+        width: 180px;
+    }
+
+    .demo {
+        margin-top: 40px;
     }
 
     /* PROPERTIES */
 
     .prop-card {
         margin: 50px auto;
+        height: 320px;
         width: 100%;
 
     }
+
+    /* SERVICES */
+
+    #services {
+        height: 260vh;
+        padding: 60px 10px;
+    }
+
+    .service-head2 {
+        font-size: 23px;
+    }
+
+    .service-description-head {
+        font-size: 20px;
+    }
+
+    .service-desc {
+        font-size: 18px;
+    }
+
+    .service-image {
+        height: 200px;
+        width: 90%;
+    }
+
+    .watch {
+        height: 200px;
+    }
+
+    /* WORKFLOW */
+
+    #workflow {
+        height: 170vh;
+    }
+
+    .flowchart1 {
+        margin-top: 180px;
+    }
+
+    /* CONTACT */
+
+    #contact {
+        padding: 50px 10px;
+    }
+
+    .contact-head {
+        font-size: 35px;
+    }
+
+    /* POP-UP PAGE */
+
+    .popup-page {
+        top: 50px;
+        left: 0;
+    }
+
+    /* FOOTER */
+
+    .footer-brand {
+        margin-left: 20px;
+    }
+
+    .footer-links {
+        margin-left: 20px;
+    }
+
+    .footer-link-details {
+        width: 70%;
+    }
+
+    .foot-cont2 {
+        font-size: 12px;
+    }
 }
 
-@media (max-width: 398px) {
+@media (max-width: 378px) {
 
     /* NAVBAR */
 
@@ -1381,6 +1476,10 @@ p {
     }
 
     /* HOME & PROMO */
+
+    #home {
+        height: 120vh;
+    }
 
     .intro-heading {
         font-size: 25px;
@@ -1418,10 +1517,33 @@ p {
         height: 320px;
     }
 
+    /* SERVICES */
+
+    #services {
+        padding: 60px 40px;
+    }
+
+    .service-head2 {
+        font-size: 23px;
+    }
+
+    .service-description-head {
+        font-size: 20px;
+    }
+
+    .service-desc {
+        font-size: 18px;
+    }
+
+    .service-image {
+        height: 350px;
+        width: 100%;
+    }
+
     /* WORKFLOW */
 
     #workflow {
-        height: 120vh;
+        height: 170vh;
     }
 
     .flowchart1 {
